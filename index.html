@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стилізована форма</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="registration-form">
+        <h1>Форма реєстрації</h1>
+
+        <form action="https://webhook.site" method="get">
+            <input type="text" name="inputName" id="inputName" placeholder="Ім'я *" required><br>
+            <input type="text" name="inputSurname" id="inputSurname" placeholder="Прізвище"><br>
+            <input type="email" name="inputEmail" id="inputEmail" placeholder="Email *" required><br>
+            <input type="password" name="pwd" id="pwd" placeholder="Пароль *" required><br>
+            <input type="password" name="rpwd" id="rpwd" placeholder="Повторіть пароль *" required><br>
+            
+            <select id="gender" name="gender">
+                <option value="undefined">-</option>
+                <option value="male">Чоловік</option>
+                <option value="female">Жінка</option>
+                <option value="chpek">Chpek</option>
+            </select><br><br>
+
+            <button type="submit" class="submit-btn">Відправити</button>
+        </form>
+    </div>
+</body>
+</html>
